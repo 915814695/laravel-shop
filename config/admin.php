@@ -151,7 +151,7 @@ return [
     /*
      * 登录页背景图
      */
-    'login_background_image' => '',
+    'login_background_image' => realpath(base_path('public/images/timg.jpg')),
 
     /*
      * 显示版本
