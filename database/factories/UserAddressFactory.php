@@ -11,7 +11,6 @@ $factory->define(App\Models\UserAddress::class, function (Faker $faker) {
         ["广东省", "深圳市", "福田区"],
     ];
     $address   = $faker->randomElement($addresses);
-gi
     return [
         'province'      => $address[0],
         'city'          => $address[1],
