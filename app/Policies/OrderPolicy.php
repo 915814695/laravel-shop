@@ -12,7 +12,7 @@ class OrderPolicy
 
     public function own(User $user, Order $order)
     {
-		  $this->authorize('own', $order);
         return $order->user_id == $user->id;
     }
+
 }
